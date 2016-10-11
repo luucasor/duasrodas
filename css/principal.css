@@ -1,0 +1,349 @@
+body {
+  font-size: 100%;
+}
+
+img,
+object,
+embed,
+video,
+iframe,
+iframe[style]{
+  max-width: 100%;
+  height: auto;
+}
+
+.titulo-tela {
+  position: absolute;
+  color: rgb(212, 55, 66);
+  font-weight: bold;
+  margin-top: 10%;
+}
+
+.titulo-tela-right {
+  position: absolute;
+  color: rgb(212, 55, 66);
+  font-weight: bold;
+  margin-top: 10%;
+  margin-left: 35%;
+}
+
+.botao-tela {
+  color: rgb(134, 134, 134);
+  position: absolute;
+  background-color: Transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-style: outset;
+  bottom: 20px;
+}
+
+#logo-navbar {
+  width: 50%;
+  margin-left: -7%;
+  margin-top: 2%;
+}
+
+.navbar {
+   position: absolute;
+   background: transparent;
+   border: 0px;
+   width: 100%;
+}
+
+#nav-button {
+  border: 0px;
+  margin-top: 10%;
+}
+
+/*==========================1=*/
+#tela1 a {
+  width: 28%;
+  position: absolute;
+  text-align: center;
+  margin-top: 4%;
+}
+
+#tela1 h5 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  margin-left: 18%;
+  margin-top: 45%;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+
+/*==========================2=*/
+#tela2 h5 {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 34%;
+  text-align: right;
+}
+
+#tela2 button {
+  margin-left: 62%;
+  margin-bottom: 15%;
+}
+
+#tela2 p {
+  color: rgb(134, 134, 134);
+  font-size: 1.6em;
+  position: absolute;
+  margin-left: 34%;
+  margin-right: 5%;
+  top: 28%;
+}
+
+#image1-carousel p {
+  margin-top: 0%;
+  position: absolute;
+  color: red;
+}
+
+
+/*==========================2-1=*/
+
+#tela2-1 h5 {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 8%;
+  text-align: right;
+}
+
+#tela2-1 button {
+  margin-left: 8%;
+  margin-bottom: 15%;
+}
+
+#tela2-1 p {
+  color: rgb(134, 134, 134);
+  font-size: 1.6em;
+  position: absolute;
+  margin-left: 8%;
+  margin-right: 29%;
+  top: 28%;
+}
+
+#image2-carousel p {
+  margin-top: 0%;
+  position: absolute;
+  color: red;
+}
+
+
+/*==========================2-2=*/
+
+#tela2-2 h5 {
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 8%;
+  text-align: right;
+}
+
+#tela2-2 button {
+  margin-left: 8%;
+  margin-bottom: 20%;
+}
+
+#tela2-2 p {
+  color: rgb(134, 134, 134);
+  font-size: 1.6em;
+  position: absolute;
+  margin-left: 8%;
+  margin-right: 29%;
+  top: 22%;
+}
+
+#image3-carousel p {
+  margin-top: 0%;
+  position: absolute;
+  color: red;
+}
+
+
+/*==========================3=*/
+#tela3 h5 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 5%;
+  text-align: right;
+}
+
+#tela3 p {
+  color: rgb(255, 255, 255);
+  font-size: 1.6em;
+  position: absolute;
+  margin-left: 5%;
+  margin-right: 27%;
+  margin-top: -55%;
+}
+
+#tela3 button {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  margin-left: 5%;
+  margin-bottom: -40%;
+}
+
+/*==========================4=*/
+#tela4 h5 {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 50%;
+}
+
+#tela4 p {
+  color: rgb(134, 134, 134);
+  font-size: 1.6em;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: -52%;
+  padding-right: 5%;
+}
+
+#tela4 button {
+  color: rgb(134, 134, 134);
+  position: absolute;
+  margin-left: 50%;
+  margin-bottom: -115%
+}
+
+/*==========================5=*/
+#tela5 h5 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 45%;
+  text-align: right;
+}
+
+#tela5 p {
+  color: rgb(255, 255, 255);
+  font-size: 1.6em;
+  position: absolute;
+  margin-left: 45%;
+  margin-top: -45%;
+  padding-right: 5%;
+}
+
+#tela5 button {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  margin-left: 45%;
+  margin-bottom: -187%
+}
+
+
+/*==========================8=*/
+#tela8 {
+  color: rgb(244, 242, 242);
+  height: 200px;
+  width: 100%
+}
+
+#quadro1 {
+  margin-left: 12%;
+  margin-top: 12%;
+}
+
+#tela8 h5{
+  margin-left: 8%;
+  margin-top: 5%;
+}
+/*============================*/
+
+/*==========================9=*/
+
+#tela9 {
+  height: 110px;
+  background-color: red;
+}
+
+#tela9 h5 {
+  color: rgb(255, 255, 255);
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+#tela9 button {
+  color: rgb(255, 255, 255);
+  background-color: Transparent;
+  border: 2px;
+  border-color: rgb(255, 255, 255);
+}
+
+#tela9 input {
+  margin-top: 18%;
+  margin-left: 10%;
+  width: 200px;
+  height: 25px;
+}
+
+/*==========================10=*/
+.meu-menu {
+  text-align: center;
+  background-color: red;
+}
+.meu-menu h4, .meu-menu a {
+  background-color: red;
+  border: 0;
+}
+
+.meu-menu h4 {
+  padding: 10px;
+}
+
+.panel-heading {
+  padding: 0;
+  width: 100%;
+}
+
+.panel-group {
+  margin: 0px;
+}
+
+.panel-title {
+  color: rgb(255, 255, 255);
+}
+/*============================*/
+
+
+.copyright {
+  color: rgb(0, 0, 0);
+  font-size: 70%;
+  margin-top: 2%;
+  text-align: center;
+  padding: 2%;
+}
+
+.redes-sociais {
+  background-color: rgb(62, 69, 73);
+  height: 15%;
+}
+
+.redes-sociais ul {
+  padding: 0%;
+  margin-left: 60%;
+}
+
+.redes-sociais ul li {
+  display: inline;
+}
+
+.redes-sociais-right {
+  width: 25%;
+  margin-top: 10%;
+  text-align: right;
+}
+
+.redes-sociais-left {
+  width: 55%;
+  margin-top: 10%;
+  margin-left: -140%;
+  margin-right: 120%;
+}
