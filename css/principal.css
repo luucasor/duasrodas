@@ -242,6 +242,35 @@ iframe[style]{
 }
 
 
+/*==========================6=*/
+#tela6 {
+  margin-top: 20%;
+  margin-bottom: 30%;
+}
+
+#tela6 h5 {
+  margin-top: -12%;
+  margin-left: 30%;
+}
+
+.slick-center .slide-h3{
+  color: #FFF;
+}
+.slider{
+  width: 100%;
+  text-align: center;
+}
+
+.slick-slide{
+  opacity: .9;
+}
+
+.slick-center{
+  width: 10% !important;
+  opacity: 1;
+}
+
+
 /*==========================7=*/
 
 #tela7 {

@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+
   </head>
   <body>
-
     <div class="navbar transparent navbar-inverse navbar-static-top hr">
       <div class="navbar-brand logo">
         <a id="logo-navbar" class="navbar-brand"href="#"><img src="img/logo.png" alt="" /></a>
@@ -104,7 +105,15 @@
       <button class="botao-tela" type="button" name="button">Saiba mais</button>
     </div>
 
-    <div id="tela6" class="tela">
+    <div id="tela6">
+      <h5 class="titulo-tela">NOSSOS NEGÓCIOS</h5>
+      <div class="slider center">
+        <div><img src="img/frutas-desktop.png" alt="" /></div>
+        <div><img src="img/suco-desktop.png" alt="" /></div>
+        <div><img src="img/biscoito-desktop.png" alt="" /></div>
+        <div><img src="img/carne-desktop.png" alt="" /></div>
+        <div><img src="img/sorvete-desktop.png" alt="" /></div>
+      </div>
     </div>
 
     <div id="tela7" class="tela">
@@ -278,6 +287,8 @@
 <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
 <script src="js/bootstrap.min.js" charset="utf-8"></script>
 <script src="js/jquery.imageScroll.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+
 <script type="text/javascript">
 
 $('.img-holder').imageScroll({
@@ -336,4 +347,29 @@ $('#collapseSix').on('shown.bs.collapse', function () {
 $('#collapseSix').on('hidden.bs.collapse', function () {
    $(".glyphiconSix").removeClass("glyphicon-chevron-up").addClass("glyphicon-chevron-down");
 });
+
+
+$('.center').slick({
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]});
 </script>
