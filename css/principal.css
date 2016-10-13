@@ -2,6 +2,11 @@ body {
   font-size: 100%;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 img,
 object,
 embed,
@@ -237,11 +242,54 @@ iframe[style]{
 }
 
 
-/*==========================8=*/
+/*==========================7=*/
+
+#tela7 {
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+
+#tela7 .titulo-tela {
+  position: absolute;
+  color: rgb(212, 55, 66);
+  font-weight: bold;
+  margin-left: 10%;
+  margin-top: -10%;
+}
+
+.noticia img {
+  float: left;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.noticia h4 {
+  margin-top: 10%;
+  color: rgb(91, 84, 84);
+  font-weight: bold;
+  padding-left: 30%;
+}
+
+.noticia p {
+  color: rgb(165, 164, 164);
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-left: 30%;
+  padding-right: 5%;
+}
+
+.noticia h5 {
+  color: rgb(241, 84, 80);
+  font-weight: bold;
+  padding-left: 30%;
+}
+
+
+/*============================*/
+
 #tela8 {
-  color: rgb(244, 242, 242);
+  background-color: rgb(244, 242, 242);
   height: 200px;
-  width: 100%
 }
 
 #quadro1 {
