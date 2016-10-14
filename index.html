@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-
   </head>
   <body>
     <div class="navbar transparent navbar-inverse navbar-static-top hr">
@@ -107,13 +106,14 @@
 
     <div id="tela6">
       <h5 class="titulo-tela">NOSSOS NEGÓCIOS</h5>
-      <div class="slider center">
+      <div id="slider-slick" class="slider center">
         <div><img src="img/frutas-desktop.png" alt="" /></div>
         <div><img src="img/suco-desktop.png" alt="" /></div>
         <div><img src="img/biscoito-desktop.png" alt="" /></div>
         <div><img src="img/carne-desktop.png" alt="" /></div>
         <div><img src="img/sorvete-desktop.png" alt="" /></div>
       </div>
+      <span id="pagingInfo"></span>
     </div>
 
     <div id="tela7" class="tela">
@@ -349,27 +349,48 @@ $('#collapseSix').on('hidden.bs.collapse', function () {
 });
 
 
-$('.center').slick({
-    centerMode: true,
-    centerPadding: '60px',
+$(document).ready(function(){
+
+  $('.center').slick({
+    centerMode: false,
+    centerPadding: '10px',
     slidesToShow: 3,
-    responsive: [{
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
+    responsive: [
+      {
+        breakpoint: 2000,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '10px',
+          slidesToShow: 5,
+          prevArrow: '<button type="button" data-role="none" class="slick-prev"><span class="glyphicon glyphicon-chevron-left"></span></button>',
+          nextArrow: '<button type="button" data-role="none" class="slick-next"><span class="glyphicon glyphicon-chevron-right"></span></button>'
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '10px',
+          slidesToShow: 3,
+          prevArrow: '<button type="button" data-role="none" class="slick-prev"><span class="glyphicon glyphicon-chevron-left"></span></button>',
+          nextArrow: '<button type="button" data-role="none" class="slick-next"><span class="glyphicon glyphicon-chevron-right"></span></button>'
+        }
       }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]});
+    ]
+
+  });
+
+});
+
+
+var $status = $('#pagingInfo');
+var $slickElement = $('#slider-slick');
+
+$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+    var i = (currentSlide ? currentSlide : 0) + 1;
+    $status.text('0' + i);
+});
+
 </script>
