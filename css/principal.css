@@ -288,6 +288,8 @@ iframe[style]{
     margin-bottom: -29%;
   }
 }
+
+
 /*==========================4=*/
 #tela4 h5 {
   position: absolute;
@@ -310,6 +312,30 @@ iframe[style]{
   margin-left: 50%;
   margin-bottom: -115%
 }
+
+@media (min-width: 768px) {
+  #tela4 h5 {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 62%;
+  }
+
+  #tela4 p {
+    color: rgb(134, 134, 134);
+    font-size: 1.6em;
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 62%;
+    margin-right: 12%;
+  }
+
+  #tela4 button {
+    color: rgb(134, 134, 134);
+    margin-bottom: -56%;
+    margin-left: 62%;
+  }
+}
+
 
 /*==========================5=*/
 #tela5 h5 {
@@ -334,6 +360,32 @@ iframe[style]{
   position: absolute;
   margin-left: 45%;
   margin-bottom: -187%
+}
+
+@media (min-width: 768px) {
+  #tela5 h5 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 52%;
+    text-align: right;
+  }
+
+  #tela5 p {
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    position: absolute;
+    margin-left: 52%;
+    padding-right: 32%;
+    margin-top: -14%;
+  }
+
+  #tela5 button {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 52%;
+    margin-bottom: -91%;
+  }
 }
 
 
