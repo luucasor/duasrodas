@@ -264,6 +264,30 @@ iframe[style]{
   margin-bottom: -40%;
 }
 
+@media (min-width: 768px) {
+  #tela3 h5 {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 15%;
+    text-align: right;
+  }
+
+  #tela3 p {
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    position: absolute;
+    margin-left: 15%;
+    margin-right: 60%;
+    margin-top: -17%;
+  }
+
+  #tela3 button {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 15%;
+    margin-bottom: -29%;
+  }
+}
 /*==========================4=*/
 #tela4 h5 {
   position: absolute;
