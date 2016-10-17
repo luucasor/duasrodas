@@ -63,13 +63,6 @@ iframe[style]{
 }
 
 /*==========================1=*/
-#tela1 a {
-  width: 28%;
-  position: absolute;
-  text-align: center;
-  margin-top: 4%;
-}
-
 #tela1 h5 {
   color: rgb(255, 255, 255);
   position: absolute;
@@ -79,6 +72,16 @@ iframe[style]{
   font-size: 1.7em;
 }
 
+@media (min-width: 768px) {
+  #tela1 h5 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 15%;
+    text-align: center;
+    font-size: 2.3em;
+  }
+}
 
 /*==========================2=*/
 #tela2 h5 {
@@ -108,6 +111,28 @@ iframe[style]{
   color: red;
 }
 
+@media (min-width: 768px) {
+  #tela2 h5 {
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 55%;
+    text-align: right;
+  }
+
+  #tela2 button {
+    margin-left: 55%;
+    margin-bottom: 5%;
+  }
+
+  #tela2 p {
+    color: rgb(134, 134, 134);
+    font-size: 1.6em;
+    position: absolute;
+    margin-left: 55%;
+    margin-right: 25.5%;
+    top: 40%;
+  }
+}
 
 /*==========================2-1=*/
 
@@ -136,6 +161,29 @@ iframe[style]{
   margin-top: 0%;
   position: absolute;
   color: red;
+}
+
+@media (min-width: 768px) {
+  #tela2-1 h5 {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 12%;
+    text-align: right;
+  }
+
+  #tela2-1 button {
+    margin-left: 12%;
+    margin-bottom: 4%;
+  }
+
+  #tela2-1 p {
+    color: rgb(134, 134, 134);
+    font-size: 1.6em;
+    position: absolute;
+    margin-left: 12%;
+    margin-right: 68.5%;
+    top: 44%;
+  }
 }
 
 
@@ -168,6 +216,29 @@ iframe[style]{
   color: red;
 }
 
+@media (min-width: 768px) {
+
+  #tela2-2 h5 {
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 15%;
+    text-align: right;
+
+  }
+  #tela2-2 p {
+    color: rgb(134, 134, 134);
+    font-size: 1.6em;
+    position: absolute;
+    margin-left: 15%;
+    margin-right: 65.5%;
+    top: 45%;
+  }
+
+  #tela2-2 button {
+    margin-left: 15%;
+    margin-bottom: 4%;
+  }
+}
 
 /*==========================3=*/
 #tela3 h5 {
